@@ -66,7 +66,7 @@
 	<!-- Skills -->
 	<section class="skills">
 		<h2>Skills</h2>
-		<p>Skill 1 • Skill 2 • Skill 3 • Skill 4 • Skill 5 • Skill 6</p>
+		<p>Rust, TypeScript, Python, PostgreSQL, Linux, Docker</p>
 	</section>
 </div>
 
