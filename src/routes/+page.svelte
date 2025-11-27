@@ -4,7 +4,6 @@
 		rel="stylesheet"
 	/>
 </svelte:head>
-
 <div class="container">
 	<!-- Header -->
 	<header>
@@ -13,7 +12,6 @@
 		<!-- <p class="contact">+371 20224765</p> -->
 		<p class="contact">Riga, Latvia</p>
 	</header>
-
 	<!-- Summary -->
 	<section>
 		<h2>Profile</h2>
@@ -22,7 +20,6 @@
 			with Anchor, Axum, SvelteKit.
 		</p>
 	</section>
-
 	<!-- Experience -->
 	<!-- <section> -->
 	<!-- 	<h2>Experience</h2> -->
@@ -39,11 +36,9 @@
 	<!-- 	</div> -->
 	<!-- </section> -->
 	<!---->
-
 	<!-- Portfolio Projects -->
 	<section>
 		<h2>Portfolio Projects</h2>
-
 		<div class="project">
 			<div class="project-header">
 				<h3>EU ETS Web3 Platform</h3>
@@ -57,11 +52,9 @@
 			</p>
 		</div>
 	</section>
-
 	<!-- Education -->
 	<section>
 		<h2>Education</h2>
-
 		<div class="education">
 			<div class="job-header">
 				<h3>Programming Technician</h3>
@@ -70,7 +63,6 @@
 			<p class="company">Jelgava Vocational School</p>
 		</div>
 	</section>
-
 	<!-- Skills -->
 	<section class="skills">
 		<h2>Skills</h2>
@@ -84,7 +76,6 @@
 		padding: 0;
 		box-sizing: border-box;
 	}
-
 	.container {
 		font-family: 'EB Garamond', serif;
 		background-color: white;
@@ -94,92 +85,76 @@
 		max-width: 850px;
 		margin: 0 auto;
 		line-height: 1.6;
+		font-size: 18px;
 	}
-
 	header {
 		margin-bottom: 40px;
 		border-bottom: 1px solid black;
 		padding-bottom: 20px;
 	}
-
 	h1 {
 		font-family: 'DM Serif Display', serif;
-		font-size: 42px;
+		font-size: 52px;
 		font-weight: normal;
-		margin-bottom: 8px;
+		margin-bottom: 10px;
 		letter-spacing: 0.5px;
 	}
-
 	.contact {
-		font-size: 16px;
+		font-size: 20px;
 		color: #333;
 	}
-
 	section {
-		margin-bottom: 35px;
+		margin-bottom: 40px;
 	}
-
 	section.skills {
 		margin-bottom: 0;
 	}
-
 	h2 {
 		font-family: 'DM Serif Display', serif;
-		font-size: 22px;
-		margin-bottom: 12px;
+		font-size: 28px;
+		margin-bottom: 16px;
 		font-weight: normal;
 	}
-
 	.profile-text {
-		font-size: 15px;
+		font-size: 19px;
 		text-align: justify;
 	}
-
 	.job {
 		margin-bottom: 20px;
 	}
-
 	.job-header {
 		display: flex;
 		justify-content: space-between;
-		margin-bottom: 4px;
+		margin-bottom: 6px;
 	}
-
 	.project {
 		margin-bottom: 20px;
 	}
-
 	.project-header {
 		display: flex;
 		justify-content: space-between;
-		margin-bottom: 4px;
-	}
-
-	h3 {
-		font-size: 17px;
-		font-weight: 500;
-	}
-
-	.date {
-		font-size: 14px;
-		color: #555;
-	}
-
-	.company {
-		font-size: 15px;
-		font-style: italic;
 		margin-bottom: 6px;
 	}
-
-	.description {
-		font-size: 15px;
+	h3 {
+		font-size: 21px;
+		font-weight: 500;
 	}
-
+	.date {
+		font-size: 18px;
+		color: #555;
+	}
+	.company {
+		font-size: 19px;
+		font-style: italic;
+		margin-bottom: 8px;
+	}
+	.description {
+		font-size: 19px;
+	}
 	.education {
 		margin-bottom: 15px;
 	}
-
 	section p {
-		font-size: 15px;
+		font-size: 19px;
 	}
 </style>
